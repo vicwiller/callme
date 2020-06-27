@@ -1,0 +1,126 @@
+/* Color variable */
+:root {
+  --brand-color: #FDEB05;
+}
+
+header {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.logo{
+    padding-top: 80px;
+    padding-left: 50px
+}
+
+
+
+#home{
+    background-image: url("../img/Background_Home.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family: 'Permanent Marker', cursive;
+
+}
+
+/** ADD backgrounds for other slides**/
+
+#trailer{
+    background-color: green;
+}
+
+#menu{
+    background-image: url("../img/Background_Menu.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family: 'Permanent Marker', cursive;
+
+}
+
+
+.menu-container{
+    padding-top:200px;
+    padding-left: 100px;
+}
+.menu-container li{
+    padding-bottom: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.menu-container a{
+    color: black;
+    text-decoration: none;
+    font-size: 60px;
+}
+
+.menu-container a:hover{
+    color: var(--brand-color)
+}
+
+.section{
+    text-align: center;
+    background-size: cover;
+
+}
+
+.social{
+    display:inline;
+    font-size: 30px;
+    position: fixed;
+    bottom: 100px;
+    left: 100px;
+}
+.social a{
+    color: var(--brand-color);
+    text-decoration: none;
+    /* Font family? */
+}
+
+.social li{
+    display:inline;
+    margin-left: 40px;
+}
+
+
+.menu-icon{
+    position: fixed;
+    top: 100px;
+    right: 100px;
+}
+
+.line1{
+  width: 80px;
+  height: 4px;
+  background-color: var(--brand-color);
+  margin: 10px 0;
+  }
+
+.line2{
+  width: 50px;
+  height: 4px;
+  background-color: var(--brand-color);
+  margin: 10px 0;
+  }
+
+
+.cta-list{
+    position: fixed;
+    bottom: 100px;
+    right:100px;
+    font-size: 30px ;
+
+}
+.cta-list li{
+    display:inline;
+    margin-left: 100px;
+}
+
+.cta-list a{
+    text-decoration: none;
+    color: var(--brand-color);
+}
